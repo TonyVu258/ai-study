@@ -1,0 +1,61 @@
+# ========== GLOBAL ==========
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Environment files
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Temporary files
+.temp
+.tmp
+
+# ========== CLIENT (Next.js) ==========
+
+client/node_modules
+client/.next
+client/out
+client/.env
+client/.env.*
+
+# Optional: Vercel
+client/.vercel
+
+# ========== SERVER (NestJS) ==========
+
+server/node_modules
+server/dist
+server/coverage
+server/.env
+server/.env.*
